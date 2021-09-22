@@ -1,5 +1,5 @@
 FROM rust:1.55-alpine3.14 as builder
-COPY whatever /code/webapp
+COPY webapp /code/webapp
 WORKDIR /code/webapp
 RUN cargo install --path .
 
