@@ -1,10 +1,5 @@
 name: Rust Package
 
-on:
-  push:
-    branches:
-      - master
-
 jobs:
   build-and-push-image:
     runs-on: ubuntu-latest
